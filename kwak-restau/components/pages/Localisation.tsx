@@ -16,7 +16,6 @@ const DIRECTIONS_URL =
 export default function Localisation() {
   return (
     <div className="bg-ink text-parchment font-sans min-h-screen">
-      {/* Header — matches Menu / Gallery page pattern */}
       <section className="max-w-3xl mx-auto px-8 pt-20 pb-8 text-center">
         <p className="text-brass text-sm tracking-wide mb-3">Nous trouver</p>
         <h1 className="font-serif font-medium text-4xl mb-4">Localisation</h1>
@@ -39,7 +38,6 @@ export default function Localisation() {
 
       <div className="border-t border-panel max-w-4xl mx-auto" />
 
-      {/* Address + Hours, side by side */}
       <section className="max-w-3xl mx-auto px-8 py-16 grid sm:grid-cols-2 gap-10">
         <div>
           <p className="text-brass text-sm mb-3">Adresse</p>

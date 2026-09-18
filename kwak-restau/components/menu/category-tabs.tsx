@@ -20,7 +20,7 @@ export function MenuCategoryTabs({ items }: { items: MenuItem[] }) {
 
   return (
     <section className="max-w-3xl mx-auto px-8 pb-24">
-      {/* Tabs */}
+
       <div className="flex justify-center gap-8 mb-10 border-b border-panel">
         {CATEGORIES.map((cat) => (
           <button
@@ -38,7 +38,6 @@ export function MenuCategoryTabs({ items }: { items: MenuItem[] }) {
         ))}
       </div>
 
-      {/* Items */}
       <div>
         {visible.map((item, i) => (
           <div

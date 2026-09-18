@@ -21,7 +21,6 @@ export function GalleryGrid({ images }: { images: GalleryImage[] }) {
 
   return (
     <section className="max-w-5xl mx-auto px-8 pb-24">
-      {/* Category filter */}
       <div className="flex flex-wrap justify-center gap-2 mb-10">
         {CATEGORIES.map((cat) => (
           <button
@@ -38,7 +37,6 @@ export function GalleryGrid({ images }: { images: GalleryImage[] }) {
         ))}
       </div>
 
-      {/* Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 auto-rows-[160px]">
         {visible.map((img) => (
           <Lightbox
