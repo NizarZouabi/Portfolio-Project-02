@@ -1,6 +1,5 @@
 "use client"
 
-import { link } from "fs";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
@@ -18,7 +17,7 @@ function Navbar() {
     <div>
         <nav className="flex items-center justify-between px-8 py-6 max-w-6xl mx-auto">
         <div>
-            <span className="font-serif text-xl font-medium">Brasserie Kwak</span>
+          <Link href="/"><span className="font-serif text-xl font-medium">Brasserie Kwak</span></Link>
         </div>
         <div className="hidden sm:flex gap-8">
         {navLinks.map(({ href, label }) => {

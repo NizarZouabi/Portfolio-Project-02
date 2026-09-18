@@ -1,9 +1,9 @@
-function Galerie() {
-    return ( 
-    <div>
-        
-    </div> 
- );
-}
+import Galerie from "@/components/pages/Galerie"
 
-export default Galerie;
+export default function GaleriePage() {
+  return (
+    <div>
+        <Galerie/>
+    </div>
+  )
+}

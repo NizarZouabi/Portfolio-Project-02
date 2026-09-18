@@ -1,5 +1,9 @@
-function Localisation() {
-    return ( <div></div> );
-}
+import Localisation from "@/components/pages/Localisation"
 
-export default Localisation;
+export default function LocalisationPage() {
+  return (
+    <div>
+      <Localisation/>
+    </div>
+  )
+}
